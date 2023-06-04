@@ -1,0 +1,13 @@
+version: "3"
+services:
+  grafana:
+    image: grafana-mongo-image
+    container_name: grafana-mongo
+    ports:
+      - 3000:3000
+    volumes:
+      - grafana_data:/var/lib/grafana
+    restart: always
+
+volumes:
+  grafana_data:
