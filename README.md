@@ -27,9 +27,11 @@ This repository provides a Docker Compose configuration to run Grafana with the 
    ```
 
 4. Start the Grafana container using Docker Compose:
-   `bash
+
+   ```bash
     docker-compose up -d
-    `
+   ```
+
    This will start Grafana with the MongoDB plugin. The Grafana UI will be accessible at `http://localhost:3000`.
 
 5. Log in to Grafana with the default credentials:
